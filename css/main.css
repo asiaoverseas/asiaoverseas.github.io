@@ -1257,6 +1257,26 @@ ul#nav li.current a:after {
 	right: -5px;
 }
 
+#viewInMap {
+	font: 12px/54px "raleway-heavy", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	display: block;
+	height: 54px;
+	width: 200px;
+	border-radius: 3px;
+	background: #e64e04;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	color: #FFFFFF;
+	-moz-transition: all 0.4s ease-on-out;
+	-o-transition: all 0.4s ease-on-out;
+	-webkit-transition: all 0.4s ease-on-out;
+	-ms-transition: all 0.4s ease-on-out;
+	transition: all 0.4s ease-on-out;
+}
+
 /* media queries - #more */
 @media only screen and (max-width:1024px) {
 	#hero #more {
